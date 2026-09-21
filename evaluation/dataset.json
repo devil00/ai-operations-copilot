@@ -1,0 +1,14 @@
+[
+  {
+    "question": "When can a customer qualify for compensation for a delayed order?",
+    "expected_document": "delivery_policy_v1"
+  },
+  {
+    "question": "Can the assistant execute a refund without authorization?",
+    "expected_document": "support_policy_v1"
+  },
+  {
+    "question": "Can a failed payment be considered successful because the API accepted the request?",
+    "expected_document": "payment_policy_v2"
+  }
+]

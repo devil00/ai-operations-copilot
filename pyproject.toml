@@ -1,0 +1,27 @@
+[project]
+name = "ai-operations-copilot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2.11",
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "pydantic-settings",
+    "openai",
+    "langgraph",
+    "langchain-core",
+    "sentence-transformers",
+    "pgvector",
+    "psycopg[binary]",
+    "python-dotenv",
+    "opentelemetry-api",
+    "opentelemetry-sdk",
+    "mlflow"
+]
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'"
+]

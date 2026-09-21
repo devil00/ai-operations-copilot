@@ -1,6 +1,6 @@
 # AI Operations Copilot
 
-A GitHub-ready starter project for learning and demonstrating production AI engineering and LLMOps.
+A project for learning and demonstrating production AI engineering and LLMOps.
 
 ## What this starter implements
 
@@ -69,7 +69,7 @@ pytest
 
 ## Design principle
 
-Do not start with a huge framework. First establish a measurable baseline:
+Establish a measurable baseline:
 
 question -> retrieval -> evidence -> answer -> citations
 
